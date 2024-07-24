@@ -1,7 +1,7 @@
 <h1>SQL Labs</h1>
 
 <h2>Description</h2>
-Project consists of performing and filtering SQL queries and knowledge of SQL joins.
+Project consists of performing and filtering SQL queries and completing SQL joins.
 <br />
 
 <h2>Environments Used </h2>
@@ -32,31 +32,23 @@ Further organizing data by ordering them by login_time:  <br/>
 <br />
 <br />
 
-<h2>Program walk-through (Filter a SQL query):</h2>
+<h2>Program walk-through (Complete a SQL join):</h2>
 
 <p align="center">
-Run query to retrieve only the device_id and operating_system columns from the machines table: <br/>
-<img src="https://i.imgur.com/GqeWUcf.jpeg" height="80%" width="80%" alt="Filter SQL"/>
+Completing the query to perform an INNER JOIN between machines and employees: <br/>
+<img src="https://i.imgur.com/AG2MaVQ.jpeg" height="80%" width="80%" alt="SQL Join"/>
 <br />
 <br />
-Retrieve a list of machines with value of 'OS 2': <br/>
-<img src="https://i.imgur.com/ieDbaph.jpeg" height="80%" width="80%" alt="Filter SQL"/>
+Completing the query to perform an LEFT JOIN to retrieve the information of all employees and any machines that are assigned to them: <br/>
+<img src="https://i.imgur.com/Zejz0EY.jpeg" height="80%" width="80%" alt="SQL Join"/>
 <br />
 <br />
-List employees from specific department: <br/>
-<img src="https://i.imgur.com/gvQBnnN.jpeg" height="80%" width="80%" alt="Filter SQL"/>
+Completing the query to perform an RIGHT JOIN to connect the machines and employees tables: <br/>
+<img src="https://i.imgur.com/4ZDzyPJ.jpeg" height="80%" width="80%" alt="SQL Join"/>
 <br />
 <br />
-List employees from another department: <br/>
-<img src="https://i.imgur.com/vCcoLm4.jpeg" height="80%" width="80%" alt="Filter SQL"/>
-<br />
-<br />
-Identify employee machines in specific buildings: <br/>
-<img src="https://i.imgur.com/gGZORy1.jpeg" height="80%" width="80%" alt="Filter SQL"/>
-<br />
-<br />
-Modifying the query in order to find all machines with issues in the '%South%' building: <br/>
-<img src="https://i.imgur.com/rx87Yiy.jpeg" height="80%" width="80%" alt="Filter SQL"/>
+Completing the query to perform an INNER JOIN to retrieve login attempt data with employees and log_in_attempts in the username column: <br/>
+<img src="https://i.imgur.com/bZhh52S.jpeg" height="80%" width="80%" alt="SQL Join"/>
 <br />
 <br />
 
